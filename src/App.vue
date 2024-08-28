@@ -79,7 +79,8 @@ export default {
   },
   methods: {
     async findCollocations() {
-      const response = await fetch('/collocations.json');
+      const baseUrl = import.meta.env.BASE_URL || '';
+      const response = await fetch(`${baseUrl}collocations.json`);
       const data = await response.json();
       this.collocations = data.filter(item => 
         item.form === this.searchWord || item.partner === this.searchWord
@@ -105,6 +106,7 @@ export default {
   }
 };
 </script>
+
 
 <style>
 html, body {
