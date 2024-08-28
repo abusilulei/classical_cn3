@@ -1,0 +1,56 @@
+[
+  {
+    "form": "run",
+    "partner": "fast",
+    "deprel": "advmod",
+    "Frequency": 150
+  },
+  {
+    "form": "run",
+    "partner": "quickly",
+    "deprel": "advmod",
+    "Frequency": 120
+  },
+  {
+    "form": "run",
+    "partner": "away",
+    "deprel": "advmod",
+    "Frequency": 150
+  },
+  {
+    "form": "run",
+    "partner": "down",
+    "deprel": "advmod",
+    "Frequency": 150
+  },
+  {
+    "form": "run",
+    "partner": "slow",
+    "deprel": "advmod",
+    "Frequency": 150
+  },
+  {
+    "form": "run",
+    "partner": "back",
+    "deprel": "advmod",
+    "Frequency": 150
+  },
+  {
+    "form": "run",
+    "partner": "country",
+    "deprel": "VBO",
+    "Frequency": 130
+  },
+  {
+    "form": "run",
+    "partner": "company",
+    "deprel": "VBO",
+    "Frequency": 130
+  },
+  {
+    "form": "run",
+    "partner": "I",
+    "deprel": "SBV",
+    "Frequency": 130
+  }
+]
